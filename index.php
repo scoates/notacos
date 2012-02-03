@@ -8,7 +8,7 @@
 <?php
 if (isset($_POST['tacoed'])) {
 	echo '<div><p>Un tacoed!</p><p>' . htmlentities(preg_replace_callback(
-		'!http://t\.co/[a-z0-9]+!i',
+		'!https?://t\.co/[a-z0-9]+!i',
 		function ($tacoUrl) {
 			$opts = array(
 				'http' => array(
