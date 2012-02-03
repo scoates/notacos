@@ -46,5 +46,6 @@ if (isset($_POST['tacoed'])) {
   <input type="submit" value="De-taco!"/>
  </form>
 </div>
+(see <a href="https://github.com/scoates/notacos">notacos on github</a>)
 </body></html>
 
