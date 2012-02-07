@@ -41,7 +41,7 @@ if (isset($_POST['tacoed'])) {
 ?>
 <div>
  <p>Text to untaco:</p>
- <form method="POST" action="<?php echo htmlentities($_SERVER['SCRIPT_NAME'], ENT_QUOTES, 'UTF-8');?>">
+ <form method="POST" action="/">
   <textarea name="tacoed" cols="80" rows="2"></textarea>
   <input type="submit" value="De-taco!"/>
  </form>
