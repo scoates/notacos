@@ -17,6 +17,7 @@ if (isset($_POST['tacoed'])) {
 					'content' => null, 
 					'user_agent' => 'NoTaco!/0.1',
 					'ignore_errors' => true,
+					'follow_location' => false,
 				),
 			);
 			$context = stream_context_create($opts);
